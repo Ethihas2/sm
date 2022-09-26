@@ -6,12 +6,11 @@ root = Tk()
 root.geometry("900x500")
 #----------------------------loading image------------ 
 #load the logo image and store it in variable image.
-place_image = ImageTk.PhotoImage(Image.open("image6.png")) 
+place_img = ImageTk.PhotoImage(Image.open("image6.png")) 
 
 
-place_image=Label(root,image=place_image)
+place_image=Label(root,image=place_img)
 #update the "image" property of the variable place_image
-
 place_image.place(relx=0.7, rely=0.5,anchor=CENTER)
 
 
